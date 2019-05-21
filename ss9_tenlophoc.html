@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ten-lop-hoc</title>
+</head>
+<body>
+<script>
+    function isClassName(str) {
+        regexp = /^[ACP][0-9]{4}[GHIKLM]$/;
+        return regexp.test(str);
+    }
+    console.log(isClassName("C0318G"));
+    console.log(isClassName("M0318G"));
+    console.log(isClassName("P0323A"));
+</script>
+</body>
+</html>
